@@ -13,7 +13,7 @@
 - B. `class`
 - C. `studentName`
 - D. `student-name`
-**✅ Correct answer:** - C. `studentName`
+- **✅ Correct answer:** C. `studentName`
 
 <sub>💡 Explanation: Variable names cannot start with numbers, contain hyphens, or use reserved keywords.</sub>
 ----
