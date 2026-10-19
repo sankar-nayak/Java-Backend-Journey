@@ -173,9 +173,9 @@ System.out.println(arr.length);
   
 **✅ Correct answer:** D. `To convert bytecode into machine code during execution for better performance`
 
-<sub>💡 Explanation: JIT is a part of the JVM. It converts frequently executed bytecode into native machine code, making Java programs run faster.
+<sub>💡 Explanation: JIT is a part of the JVM. It converts frequently executed bytecode into native machine code, making Java programs run faster.</sub>
 
-⚠️ This question appears twice (Q16 and Q17) in the test with identical content.</sub>
+<sub> ⚠️ This question appears twice (Q16 and Q17) in the test with identical content.</sub>
 ----
 ### Q17. What is the primary purpose of JIT (Just-In-Time) Compiler?
 - A. `To compile .java files into .class files`
@@ -185,9 +185,9 @@ System.out.println(arr.length);
   
 **✅ Correct answer:** D. `To convert bytecode into machine code during execution for better performance`
 
-<sub>💡 Explanation: JIT is a part of the JVM. It converts frequently executed bytecode into native machine code, making Java programs run faster.
+<sub>💡 Explanation: JIT is a part of the JVM. It converts frequently executed bytecode into native machine code, making Java programs run faster.</sub>
 
-⚠️ This question appears twice (Q16 and Q17) in the test with identical content.</sub>
+<sub>⚠️ This question appears twice (Q16 and Q17) in the test with identical content.</sub>
 ----
 ### Q18. Why should hardcoding values be avoided in Java applications?
 - A. `It improves performance`
