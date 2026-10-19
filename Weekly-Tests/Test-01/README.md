@@ -13,16 +13,16 @@
 - B. `class`
 - C. `studentName`
 - D. `student-name`
-**✅ Correct answer:** C. studentName
+**✅ Correct answer:** C. `studentName`
 
-**💡 Explanation:** Variable names cannot start with numbers, contain hyphens, or use reserved keywords.
+<sub>💡 Explanation: Variable names cannot start with numbers, contain hyphens, or use reserved keywords.</sub>
 ----
 ### Q2. Which command compiles a Java program?
 - A. `java Test`
 - B. `compile Test.java`
 - C. `javac Test`
 - D. `javac Test.java`
-**✅ Correct answer:** D. javac Test.java
+**✅ Correct answer:** D. `javac Test.java`
 
 **💡 Explanation:** javac converts source code into bytecode.
 ----
