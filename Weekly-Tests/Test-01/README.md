@@ -14,7 +14,7 @@
 - C. `studentName`
 - D. `student-name`
 
-  **✅ Correct answer:** C. `studentName`
+**✅ Correct answer:** C. `studentName`
 
 <sub>💡 Explanation: Variable names cannot start with numbers, contain hyphens, or use reserved keywords.</sub>
 ----
@@ -23,7 +23,8 @@
 - B. `compile Test.java`
 - C. `javac Test`
 - D. `javac Test.java`
-**✅ Correct answer:** - D. `javac Test.java`
+  
+**✅ Correct answer:** D. `javac Test.java`
 
 <sub>💡 Explanation: javac converts source code into bytecode.</sub>
 ----
@@ -32,7 +33,8 @@
 - B. `,`
 - C. `;`
 - D. `.`
-**✅ Correct answer:** - C. `;`
+
+**✅ Correct answer:** C. `;`
 
 <sub>💡 Explanation: Most Java statements end with a semicolon.</sub>
 ----
@@ -41,7 +43,8 @@
 - B. `JVM`
 - C. `JRE`
 - D. `Compiler`
-**✅ Correct answer:** - B. `JVM`
+  
+**✅ Correct answer:** B. `JVM`
 
 <sub>💡 Explanation: JVM loads and executes .class files.</sub>
 ----
@@ -50,7 +53,8 @@
 - B. `Local Variable`
 - C. `Final Variable`
 - D. `Instance Variable`
-**✅ Correct answer:** - D. `Instance Variable`
+  
+**✅ Correct answer:** D. `Instance Variable`
 
 <sub>💡 Explanation: Every object gets its own copy of instance variables.</sub>
 ----
@@ -59,7 +63,8 @@
 - B. `Local Variable`
 - C. `Final Variable`
 - D. `Instance Variable`
-**✅ Correct answer:** - A. `Static Variable`
+  
+**✅ Correct answer:** A. `Static Variable`
 
 <sub>💡 Explanation: Static variables belong to the class, not objects.</sub>
 ----
@@ -69,7 +74,8 @@ System.out.println(10 + 20 + "Java");
 - B. `1020Java`
 - C. `30Java`
 - D. `Error`
-**✅ Correct answer:** - C. `30Java`
+  
+**✅ Correct answer:** C. `30Java`
 
 <sub>💡 Explanation: Integer addition happens before string concatenation.</sub>
 ----
@@ -78,7 +84,8 @@ System.out.println(10 + 20 + "Java");
 - B. `JRE contains JVM`
 - C. `JDK contains only JVM`
 - D. `JRE contains JDK`
-**✅ Correct answer:** - B. `JRE contains JVM`
+  
+**✅ Correct answer:** B. `JRE contains JVM`
 
 <sub>💡 Explanation: JRE = JVM + runtime libraries.</sub>
 ----
@@ -88,7 +95,8 @@ System.out.println(10 + "20" + 30);
 - B. `60`
 - C. `Error`
 - D. `3030`
-**✅ Correct answer:** - A. `102030`
+  
+**✅ Correct answer:** A. `102030`
 
 <sub>💡 Explanation: Once a String appears, concatenation starts.</sub>
 ----
@@ -100,7 +108,8 @@ byte d = b + c;
 - B. `30`
 - C. `Compilation Error`
 - D. `Runtime Error`
-**✅ Correct answer:**: - C. `Compilation Error`
+  
+**✅ Correct answer:**: C. `Compilation Error`
 
 <sub>💡 Explanation: b + c becomes int, not byte</sub>
 ----
@@ -111,7 +120,8 @@ System.out.println(arr.length);
 - B. `2`
 - C. `Error`
 - D. `0`
-**✅ Correct answer:**: - B. `2`
+  
+**✅ Correct answer:**: B. `2`
 
 <sub>💡 Explanation: Array contains two elements.</sub>
 ----
@@ -120,7 +130,8 @@ System.out.println(arr.length);
 - B. `No, only the class that needs to be executed directly requires it`
 - C. `No class can have a main method`
 - D. `Every object must have a main method`
-**✅ Correct answer:** - B. `No, only the class that needs to be executed directly requires it`
+  
+**✅ Correct answer:** B. `No, only the class that needs to be executed directly requires it`
 
 <sub>💡 Explanation: A Java class can exist without a main() method. However, if you want to run the class directly using the JVM (java ClassName), it must contain a valid main() method.</sub>
 ----
@@ -129,7 +140,8 @@ System.out.println(arr.length);
 - B. `public void static main(String[] args)`
 - C. `public static void main(String[] args)`
 - D. `static public main(String[] args)`
-**✅ Correct answer:**: - C. `public static void main(String[] args)`
+  
+**✅ Correct answer:**: C. `public static void main(String[] args)`
 
 <sub>💡 Explanation: The JVM looks for exactly public static void main(String[] args)</sub>
 ----
@@ -138,7 +150,8 @@ System.out.println(arr.length);
 - B. `student-details`
 - C. `StudentDetails`
 - D. `class`
-**✅ Correct answer:**: - C. `StudentDetails`
+  
+**✅ Correct answer:**: C. `StudentDetails`
 
 <sub>💡 Explanation: Class names follow identifier rules: they cannot start with a digit, contain hyphens, or be a reserved keyword. StudentDetails also follows the PascalCase convention.</sub>
 ----
@@ -147,7 +160,8 @@ System.out.println(arr.length);
 - B. `Runtime Error: Main method not found`
 - C. `JVM creates a main method automatically`
 - D. `Compilation Error`
-**✅ Correct answer:** - B. `Runtime Error: Main method not found`
+  
+**✅ Correct answer:** B. `Runtime Error: Main method not found`
 
 <sub>💡 Explanation: The class will compile successfully, but when executed, the JVM throws: Error: Main method not found in class ...</sub>
 ----
@@ -156,7 +170,8 @@ System.out.println(arr.length);
 - B. `To create JVM`
 - C. `To load classes into memory`
 - D. `To convert bytecode into machine code during execution for better performance`
-**✅ Correct answer:** - D. `To convert bytecode into machine code during execution for better performance`
+  
+**✅ Correct answer:** D. `To convert bytecode into machine code during execution for better performance`
 
 <sub>💡 Explanation: JIT is a part of the JVM. It converts frequently executed bytecode into native machine code, making Java programs run faster.
 
@@ -167,7 +182,8 @@ System.out.println(arr.length);
 - B. `To create JVM`
 - C. `To load classes into memory`
 - D. `To convert bytecode into machine code during execution for better performance`
-**✅ Correct answer:** - D. `To convert bytecode into machine code during execution for better performance`
+  
+**✅ Correct answer:** D. `To convert bytecode into machine code during execution for better performance`
 
 <sub>💡 Explanation: JIT is a part of the JVM. It converts frequently executed bytecode into native machine code, making Java programs run faster.
 
@@ -178,7 +194,8 @@ System.out.println(arr.length);
 - B. `It reduces memory usage`
 - C. `It makes maintenance and configuration difficult`
 - D. `It is required by the JVM`
-**✅ Correct answer:**: - C. `It makes maintenance and configuration difficult`
+  
+**✅ Correct answer:**: C. `It makes maintenance and configuration difficult`
 
 <sub>💡 Explanation: Hardcoded values (database URLs, passwords, file paths, etc.) make applications difficult to maintain. Such values should be stored in configuration files, environment variables, or properties files.</sub>
 ----
@@ -187,7 +204,8 @@ System.out.println(arr.length);
 - B. `Java source code runs directly on the operating system`
 - C. `Java bytecode can run on any platform that has a JVM`
 - D. `Java works only on Windows and Linux`
-**✅ Correct answer:** - C. `Java bytecode can run on any platform that has a JVM`
+  
+**✅ Correct answer:** C. `Java bytecode can run on any platform that has a JVM`
 
 <sub>💡 Explanation: When Java code is compiled, it is converted into bytecode (.class file). This bytecode is not specific to any operating system. Any machine with a JVM (Java Virtual Machine) can execute it. This is the reason behind Java's famous principle: "Write Once, Run Anywhere (WORA)".</sub>
 ----
@@ -196,7 +214,8 @@ System.out.println(arr.length);
 - B. `Heap Memory`
 - C. `Method Area`
 - D. `CPU Cache`
-**✅ Correct answer:** - B. `Heap Memory`
+  
+**✅ Correct answer:** B. `Heap Memory`
 
 <sub>💡 Explanation: Objects created using the new keyword are stored in the Heap Memory. The reference variable may be stored elsewhere, but the actual object resides in the heap.</sub>
 ----
@@ -205,7 +224,8 @@ System.out.println(arr.length);
 - B. `MetaSpace`
 - C. `PermGen`
 - D. `Stack Memory`
-**✅ Correct answer:** - D. `Stack Memory`
+  
+**✅ Correct answer:** D. `Stack Memory`
 
 <sub>💡 Explanation: Local variables declared inside methods are stored in the Stack Memory and are automatically removed when the method execution completes.</sub>
 ----
@@ -214,7 +234,8 @@ System.out.println(arr.length);
 - B. `Storing data shared by all objects of a class`
 - C. `Creating objects`
 - D. `Storing local variables`
-**✅ Correct answer:** - B. `Storing data shared by all objects of a class`
+  
+**✅ Correct answer:** B. `Storing data shared by all objects of a class`
 
 <sub>💡 Explanation: Static variables belong to the class, not to individual objects. Only one copy exists and is shared by all objects.</sub>
 ----
@@ -223,7 +244,8 @@ System.out.println(arr.length);
 - B. `Entire package`
 - C. `Only within the method/block where it is declared`
 - D. `Entire application`
-**✅ Correct answer:**: - C. `Only within the method/block where it is declared`
+  
+**✅ Correct answer:**: C. `Only within the method/block where it is declared`
 
 <sub>💡 Explanation: A local variable can be accessed only inside the method, constructor, or block in which it is declared. It cannot be accessed outside that scope.</sub>
 ----
@@ -232,7 +254,8 @@ System.out.println(arr.length);
 - B. `It can be non-static.`
 - C. `A class can compile without a main method.`
 - D. `Every class must contain a main method.`
-**✅ Correct answer:**  - C. `A class can compile without a main method.`
+  
+**✅ Correct answer:**  C. `A class can compile without a main method.`
 
 <sub>💡 Explanation: A class without main() compiles successfully. The JVM requires main() only when you try to run that class directly.</sub>
 ----
@@ -261,7 +284,8 @@ After compilation (javac Test.java), how many .class files will be generated?
 - B. `1`
 - C. `2`
 - D. `3`
-**✅ Correct answer:** - D. `3`
+  
+**✅ Correct answer:** D. `3`
 
 <sub>💡 Explanation: Java creates one .class file for each class.</sub>
 ----
@@ -270,7 +294,8 @@ After compilation (javac Test.java), how many .class files will be generated?
 - B. `One .java file can contain multiple classes.`
 - C. `One class generates multiple .class files always.`
 - D. `A .class file contains Java source code.`
-**✅ Correct answer:** - B. `One .java file can contain multiple classes.`
+  
+**✅ Correct answer:** B. `One .java file can contain multiple classes.`
 
 <sub>💡 Explanation: A Java source file can contain multiple classes, but at most one public class. The file name must match the public class name.</sub>
 ----
@@ -289,7 +314,8 @@ public class Test
 - B. `Generates Demo.class`
 - C. `Compilation Error`
 - D. `Runtime Error`
-**✅ Correct answer:** - C. `Compilation Error`
+  
+**✅ Correct answer:** C. `Compilation Error`
 
 <sub>💡 Explanation: When a class is declared public, the file name must exactly match the public class name.</sub>
 ----
@@ -307,7 +333,8 @@ public class Test
 - B. `blank output`
 - C. `ArrayIndexOutOfBoundsException`
 - D. `Compilation failure`
-**✅ Correct answer:** - C. `ArrayIndexOutOfBoundsException`
+  
+**✅ Correct answer:** C. `ArrayIndexOutOfBoundsException`
 
 <sub>💡 Explanation: Since no arguments are passed, args.length is 0. Accessing args[0] causes an ArrayIndexOutOfBoundsException (AIOBE) at runtime.</sub>
 ----
@@ -329,7 +356,8 @@ Executed as: java Test
 - B. `No Arguments`
 - C. `ArrayIndexOutOfBoundsException`
 - D. `Compilation failure`
-**✅ Correct answer:** - B. `No Arguments`
+  
+**✅ Correct answer:** B. `No Arguments`
 
 <sub>💡 Explanation: The code safely checks args.length before accessing the array, preventing ArrayIndexOutOfBoundsException. This is the recommended way to handle command-line arguments.</sub>
 ----
@@ -346,7 +374,8 @@ executed as :        java Test Java Spring Boot
 - B. `3`
 - C. `4`
 - D. `Compilation failure`
-**✅ Correct answer:** - B. `3`
+  
+**✅ Correct answer:** B. `3`
 
 <sub>💡 Explanation: The array contains 3 elements</sub>
 ----
@@ -369,7 +398,8 @@ Which SOLID principle is violated in this design?
 - B. `Single Responsibility Principle`
 - C. `Liskov Substitution Principle`
 - D. `Dependency Inversion Principle`
-**✅ Correct answer:** - B. `Single Responsibility Principle`
+  
+**✅ Correct answer:** B. `Single Responsibility Principle`
 
 <sub>💡 Explanation: The class mixes salary calculation, PDF generation and emailing. Each class should have only one reason to change, so this violates the Single Responsibility Principle.</sub>
 ----
@@ -378,7 +408,8 @@ Which SOLID principle is violated in this design?
 - B. `Single Responsibility Principle`
 - C. `System Responsibility Principle`
 - D. `Software Responsibility Principle`
-**✅ Correct answer:** - B. `Single Responsibility Principle`
+  
+**✅ Correct answer:** B. `Single Responsibility Principle`
 
 <sub>💡 Explanation: SOLID = Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.</sub>
 ----
@@ -397,7 +428,8 @@ What is the main disadvantage of hardcoding values like this?
 - B. `It makes the code easier to maintain and change`
 - C. `Changes require modifying and redeploying the source code`
 - D. `It automatically improves security`
-**✅ Correct answer:** - C. `Changes require modifying and redeploying the source code`
+  
+**✅ Correct answer:** C. `Changes require modifying and redeploying the source code`
 
 <sub>💡 Explanation: A hardcoded value is baked into the source, so any change (e.g. a different URL per environment) needs a code change and redeployment. Externalise it in properties files or environment variables.</sub>
 ----
@@ -417,7 +449,8 @@ When display() is called, where is the method call information stored during exe
 - B. `Stack`
 - C. `String Pool`
 - D. `CPU Cache`
-**✅ Correct answer:** - B. `Stack`
+  
+**✅ Correct answer:** B. `Stack`
 
 <sub>💡 Explanation: Each method call creates a stack frame on the Stack (holding parameters, local variables and return address), which is removed when the method returns.</sub>
 ----
@@ -431,7 +464,8 @@ output ?
 - B. `false`
 - C. `Runtime error`
 - D. `Compilation error`
-**✅ Correct answer:** - B. `false`
+  
+**✅ Correct answer:** B. `false`
 
 <sub>💡 Explanation:*a > 5 is true but b < 15 is false (20 < 15), so true && false = false.</sub>
 ----
@@ -445,7 +479,8 @@ if (a > 5 || ++a > 10) {
 - B. `11`
 - C. `Runtime error`
 - D. `Compilation error`
-**✅ Correct answer:** - A. `10`
+  
+**✅ Correct answer:** A. `10`
 
 <sub>💡 Explanation: a > 5 is already true, so || short-circuits and ++a is never evaluated. a stays 10.</sub>
 ----
@@ -455,7 +490,8 @@ Which phase of the Software Development Life Cycle (SDLC) is this?
 - B. `Testing`
 - C. `Implementation(Development)`
 - D. `Requirement Analysis`
-**✅ Correct answer:** - D. `Requirement Analysis`
+  
+**✅ Correct answer:** D. `Requirement Analysis`
 
 <sub>💡 Explanation: Gathering business requirements and client expectations before coding is the Requirement Analysis phase of the SDLC.</sub>
 ----
@@ -464,7 +500,8 @@ Which phase of the Software Development Life Cycle (SDLC) is this?
 - B. `Java Archive file used to package Java classes and resources`
 - C. `Java Assembly Reference file`
 - D. `Java Application Registry file`
-**✅ Correct answer:** - B. `Java Archive file used to package Java classes and resources`
+  
+**✅ Correct answer:** B. `Java Archive file used to package Java classes and resources`
 
 <sub>💡 Explanation: A JAR (Java Archive) bundles compiled classes and resources into a single distributable file.</sub>
 -----
@@ -473,7 +510,8 @@ Which phase of the Software Development Life Cycle (SDLC) is this?
 - B. `jar xvf app.jar`
 - C. `javac app.jar`
 - D. `java create app.jar`
-**✅ Correct answer:** - A. `jar cvf app.jar *.class`
+  
+**✅ Correct answer:** A. `jar cvf app.jar *.class`
 
 <sub>💡 Explanation: jar cvf app.jar *.class: c = create, v = verbose, f = output file name.</sub>
 ----
